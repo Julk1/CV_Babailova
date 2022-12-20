@@ -4,27 +4,46 @@
     <title>Working with forms</title>
 </head>
 <body>
-    <strong></strong><h1>Hire me</h1></strong> 
-    <br>
+
+    <h1>Hire me </h1>
+    
         <h2>Contact informaton</h2>
 
-        <table  border="1">
-
+        <table border="4">
             <thead>
                 <tr>
                  <th>Phone</th>
                  <th>+43660407011*</th>
-            
+        
             <tbody>
                 <tr>
-                 <td>Adress</td>
+                 <td>Address</td>
                  <td>Somewhere in Ukraine</td>
                </tr>
-            </table>
+        </table>
+    <br />
+    <form action="/forms.html" method="get">
+     <fieldset>
+        <legend>Contact form</legend>
+        <label for="Email:">Email:</label>
+        <input type="text" id="email" name="email" required />
+        
+        <br />
+        
+        <label for="Description:">Description:</label>
+        <input type="text" id="description" name="description" />
+        
+        <br />
+        Work type: 
+        <select name="type">
+            <option value="type_1">Full-time</option>
+            <option value="type_2">Home Office</option>
+            <option value="type_2">part time</option>
+        </select>
+    
+        <br />
+      <input type="submit" value="Hire me"
 
-    <form action="/forms.html method="post">
-
-
-        User <input type="text" name="user" placeholder=""
+    </fieldset>
     </form>
 </body>
