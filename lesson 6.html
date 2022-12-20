@@ -9,13 +9,13 @@
     
         <h2>Contact informaton</h2>
 
-        <table border="4">
-            <thead>
-                <tr>
-                 <th>Phone</th>
-                 <th>+43660407011*</th>
-        
+        <table border="2">
+            
             <tbody>
+                <tr>
+                <td>Phone</td>
+                <td>+43660407011*</td>  
+                </tr>
                 <tr>
                  <td>Address</td>
                  <td>Somewhere in Ukraine</td>
@@ -31,14 +31,20 @@
         <br />
         
         <label for="Description:">Description:</label>
-        <input type="text" id="description" name="description" />
+        <textarea 
+        id="description"
+        name="description"
+        rows="20"
+        cols="30"></textarea>
+        
         
         <br />
         Work type: 
         <select name="type">
-            <option value="type_1">Full-time</option>
-            <option value="type_2">Home Office</option>
-            <option value="type_2">part time</option>
+            <option value="type_1">Work in the office</option>
+            <option value="type_2">One-time project</option>
+            <option value="type_3">Remote work</option>
+
         </select>
     
         <br />
