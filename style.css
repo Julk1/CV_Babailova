@@ -3,9 +3,9 @@
      color: #333;
 }
 
-.cv a {color: #00f};
+.cv a:link {color: #00f};
 
-.cv a:visited {color: rgb(102, 247, 18);}
+.cv a :visited {color:#005 ;}
 
 .cv a:hover {
     text-decoration: none;}
@@ -17,3 +17,7 @@
 
 /*work*/
 .table-work-header {text-transform: uppercase;}
+
+/*skills*/
+
+.skills-list { list-style-type: square;}
