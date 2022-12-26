@@ -5,6 +5,15 @@
 
 .cv a {color: #00f};
 
-.cv a:visited {
-    color: #005;
-}
+.cv a:visited {color: rgb(102, 247, 18);}
+
+.cv a:hover {
+    text-decoration: none;}
+
+/*header*/
+
+.header-title-name {font-style: italic;}
+.header-position {font-weight: bold;}
+
+/*work*/
+.table-work-header {text-transform: uppercase;}
