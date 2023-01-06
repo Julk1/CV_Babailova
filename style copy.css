@@ -1,42 +1,82 @@
 
-.cv {font-family: Arial, Helvetica, sans-serif;
+.cv {
+    font-family: Arial, Helvetica, sans-serif;
      color: #333;
 }
 
-.cv a:link {color: #00f};
+.cv a:link {
+    color: #00f
+};
 
-.cv a :visited {color:#005 ;}
+.cv a :visited {
+    color:#005 ;
+}
 
 .cv a:hover {
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 /*header*/
 
-.header-title-name {font-style: italic; border-bottom: 2px solid rgb(12, 146, 209);}
-.header-position {font-weight: bold; border-bottom: 2px solid rgb(12, 146, 209);}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-title-name {
+    font-style: italic; 
+    border-bottom: 2px solid rgb(12, 146, 209);
+}
+
+.header-position {
+    font-weight: bold; 
+    border-bottom: 2px solid rgb(12, 146, 209);
+}
 
 .header img {
+    width: 100px;
+    height: 100px;
     border: 2px solid rgb(12, 146, 209);
-    padding: 10px;}
+    padding: 10px;
+}
 
 /*work*/
-.table-work-header {text-transform: uppercase; background-color: rgb(75, 183, 212);}
 
-.table-work td {background-color: rgb(138, 201, 231);}
+.Work {
+    border-bottom: 2px solid rgb(75, 183, 212);
+}
 
+.table-work-header {
+    text-transform: uppercase; 
+    background-color: rgb(75, 183, 212);
+}
+.table-work {
+    width: 100%;
+}
 
+.table-work td {
+    background-color: rgb(75, 183, 212);
+}
 
 
 /*skills*/
 
+
+.skills-list { 
+    list-style-type: square;
+}
+
 .skills {
-    border-bottom: 2px solid rgb(12, 146, 209);}
-
-.skills-list { list-style-type: square;}
-
-.skills-computer {border-top: 2px solid rgb(12, 146, 209);}
-
-
+    border-bottom: 2px solid rgb(12, 146, 209);
+}
 /* achievements */
 
-.achievements {border-bottom: 2px solid rgb(12, 146, 209);}
+.achievements {
+border-bottom: 2px solid rgb(12, 146, 209);
+}
+    
+
+
+
