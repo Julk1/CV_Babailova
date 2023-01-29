@@ -135,6 +135,7 @@
 }
 
 
+
 /* Form-section */
 .form-section {
   max-width: 1024px;
@@ -142,8 +143,9 @@
   margin: auto;
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
-  background: #ffffff;
-  box-shadow: 0px 5px 10px 0px rgba(5, 3, 54, 0.5);
+  background: #fffffff3;
+  border-style: dashed;
+  border-color: #840dde;
   padding-bottom: 20px;
 }
 
@@ -318,7 +320,7 @@ textarea {
 }
 
 select {
-  background: url('') no-repeat center right 5px;
+  background: url('image/icons8-sortieren-runter-30%20(2).png') no-repeat center right 5px;
   background-color: #e1e1e193;
 }
 
