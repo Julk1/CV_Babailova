@@ -1,8 +1,105 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 815px;
+    grid-template-rows: auto;
+   
+    
 
-.cv {
-    font-family: Arial, Helvetica, sans-serif;
-     color: #333;
-}
+    }
+    .grid-item-1 {
+        background-color: rgba(134, 163, 180, 1);
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+   .name {
+    padding-top: 58px;
+    padding-right: 85px;
+    padding-left: 40px;
+     
+  }
+   
+
+  .first-name {
+    color: white;
+  }
+  
+  .second-name {
+    color: rgba(5, 21, 70, 0.705);
+  }
+
+  .photo {
+    width: 300px;
+    height: 292px;
+  }
+
+  .Contact {
+    padding-right: 43px;
+    padding-left: 40px;
+    color: #1E1E1E;
+    line-height: 5px;
+    font-size: 13px;
+  }
+
+  .header {
+    border-bottom: 4px;
+    border-bottom-style: groove;
+    border-color:#1E1E1E;
+    padding-bottom: 8px;
+    padding-top:16px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .address {
+    padding-top: 2px;
+  } 
+
+ .phone {
+  padding-top: 10px;
+ }
+
+ .email {
+  padding-top: 10px;
+ }
+
+ .linkedin {
+  padding-top: 10px;
+ }
+
+ .languages {
+  line-height: 1px;
+  font-weight: bold;
+  padding-top: 10px;
+ }
+
+ .grid-item-2 {
+  padding-top: 58px;
+  padding-right: 85px;
+  padding-left: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+ }
+
+ .body-text {
+  font-size: 13px;
+  font-weight: bold;
+ }
+
+ .skills {
+  display: flex;
+  flex-direction: row;
+  
+  
+ }
+ 
+ .main-text {
+  font-size: 13px;
+  
+ }
+
+ 
 
 .cv a:link {
     color: #00f
@@ -12,71 +109,27 @@
     color:#005 ;
 }
 
-.cv a:hover {
-    text-decoration: none;
-}
 
-/*header*/
 
-.header-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.form-link {
+    margin-left: 40px;
+    color: #1C2E8C;
 }
 
 
-.header-title-name {
-    font-style: italic; 
-    border-bottom: 2px solid rgb(12, 146, 209);
+.phone-link {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #263036;
 }
 
-.header-position {
-    font-weight: bold; 
-    border-bottom: 2px solid rgb(12, 146, 209);
-}
-
-.header img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid rgb(12, 146, 209);
-    padding: 10px;
-}
-
-/*work*/
-
-.Work {
-    border-bottom: 2px solid rgb(75, 183, 212);
-}
-
-.table-work-header {
-    text-transform: uppercase; 
-    background-color: rgb(75, 183, 212);
-}
-.table-work {
-    width: 100%;
-}
-
-.table-work td {
-    background-color: rgb(75, 183, 212);
+.link {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #1C2E8C;    
 }
 
 
-/*skills*/
-
-
-.skills-list { 
-    list-style-type: square;
+.link-form {
+    color: #0048D9;
 }
-
-.skills {
-    border-bottom: 2px solid rgb(12, 146, 209);
-}
-/* achievements */
-
-.achievements {
-border-bottom: 2px solid rgb(12, 146, 209);
-}
-    
-
-
-
