@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 300px 815px;
+    grid-template-columns: 385px 815px;
     grid-template-rows: auto;
    
     
@@ -41,8 +41,8 @@
   }
 
   .photo {
-    width: 300px;
-    height: 292px;
+    width: 245px;
+    height: 300px;
     ;
   }
 
@@ -100,7 +100,7 @@
  position:absolute;
  top: 0;
  right: 350px;
- left: 280px;
+ left: 460px;
  }
 
  .body-text {
