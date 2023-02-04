@@ -1,52 +1,76 @@
+:root {
+/* fonts */
+--font-family-base: 'Inter', sans-serif;
+
+--font-style: normal;
+
+--font-weight-normal: 400;
+--font-weight-bold: 600;
+
+--font-size-xsmall: 14px;
+--font-size-small: 16px;
+--font-size-medium: 20px;
+--font-size-large: 24px;
+--font-size-sidebar-title: 32px;
+--font-size-xlarge: 36px;
+--font-size-2xlarge: 40px;
+
+/* sizes */
+--space-left-column: 10px 40px 15px;
+--space-padding-top: 5px;
+--space-line-height: 5px;
+--font-size-primary: 13px;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 385px 715px;
     grid-template-rows: auto;
    
-    
+}
 
-    }
-    .grid-item-1 {
+.grid-item-1 {
         
-        background-color: rgba(134, 163, 180, 1);
-        font-family:Arial, Helvetica, sans-serif;
+  background-color: rgba(134, 163, 180, 1);
+  font-family:Arial, Helvetica, sans-serif;
         
-    }
+}
 
-    .modal {
-      position:fixed;
-    }
+.modal {
+  position:fixed;
+}
 
-   .name {
-    padding-top: 58px;
-    padding-right: 85px;
-    padding-left: 40px;
+.name {
+  padding-top: 58px;
+  padding-right: 85px;
+  padding-left: 40px;
      
-  }
+}
    
 
-  .first-name {
+.first-name {
     color: rgba(5, 21, 70, 0.705);
-  }
+}
   
-  .second-name {
+.second-name {
     color: rgba(5, 21, 70, 0.705);
-  }
+}
 
 
-  .hire-me{
+.hire-me{
     padding-right: 85px;
     padding-left: 40px;
     padding-bottom: 10px;
-  }
+}
 
-  .photo {
+.photo {
     padding-right: 85px;
     padding-left: 40px;
     width: 245px;
     height: 300px;
     ;
-  }
+}
 
   .Contact {
     padding-right: 43px;
