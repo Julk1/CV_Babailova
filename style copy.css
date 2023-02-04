@@ -1,38 +1,32 @@
 :root {
-/* fonts */
---font-family-base: 'Inter', sans-serif;
+  /* colors */
+  --color-left-column: rgb(180, 151, 134);
+  --color-right-column: rgb(216, 136, 136);
+  --color-first-name: rgb(233, 168, 63);
+  --color-second-name: rgb(239, 148, 58);
+  --color-font-primary: #1E1E1E;
+  --collor-border: #1E1E1E;
+  
 
---font-style: normal;
 
---font-weight-normal: 400;
---font-weight-bold: 600;
-
---font-size-xsmall: 14px;
---font-size-small: 16px;
---font-size-medium: 20px;
---font-size-large: 24px;
---font-size-sidebar-title: 32px;
---font-size-xlarge: 36px;
---font-size-2xlarge: 40px;
-
-/* sizes */
---space-left-column: 10px 40px 15px;
---space-padding-top: 5px;
---space-line-height: 5px;
---font-size-primary: 13px;
-}
+ /* sizes */
+ --space-left-column: 10px 40px 15px;
+ --space-padding-top: 5px;
+ --space-line-height: 5px;
+ --font-size-primary: 13px;
+ }
 
 
 .grid-container {
     display: grid;
-    grid-template-columns: 385px 715px;
+    grid-template-columns: 300px 715px;
     grid-template-rows: auto;
    
 }
 
 .grid-item-1 {
-        
-  background-color: rgba(134, 163, 180, 1);
+  display:block;
+  background-color: var(--color-left-column);      
   font-family:Arial, Helvetica, sans-serif;
         
 }
@@ -42,49 +36,45 @@
 }
 
 .name {
-  padding-top: 58px;
-  padding-right: 85px;
-  padding-left: 40px;
+  padding: var(--space-left-column); 
      
 }
    
 
 .first-name {
-    color: rgba(5, 21, 70, 0.705);
+  color: var(--color-first-name);
 }
   
 .second-name {
-    color: rgba(5, 21, 70, 0.705);
+  color: var(--color-second-name);
 }
 
 
 .hire-me{
-    padding-right: 85px;
-    padding-left: 40px;
-    padding-bottom: 10px;
+  padding: var(--space-left-column);
 }
 
 .photo {
     padding-right: 85px;
     padding-left: 40px;
-    width: 245px;
-    height: 300px;
+    width: 275px;
+    height: 350px;
     ;
 }
 
   .Contact {
-    padding-right: 43px;
-    padding-left: 40px;
-    color: #1E1E1E;
-    line-height: 5px;
-    font-size: 13px;
+    padding: var(--space-left-column);
+    color: var(--color-font-primary);
+    line-height: var(--space-line-height);
+    font-size: var(--font-size-primary);
+    
   }
 
   .header {
     border-bottom: 4px;
     border-bottom-style: groove;
-    border-color:#1E1E1E;
-    padding-bottom: 8px;
+    border-color: var(--collor-border);
+    padding-bottom: 20px;
     padding-top:16px;
   }
 
@@ -92,47 +82,37 @@
     font-size: 16px;
   }
 
-  .address {
-    padding-top: 2px;
-  } 
 
- .phone {
-  padding-top: 10px;
- }
+  .contact-title {
+    padding-top: var(--space-padding-top);
+    font-weight: bold;
+    line-height: var(--space-line-height);
+    } 
+    
+  .plain-text {
+    font-weight: normal;
+    }
+    
 
- .email {
-  padding-top: 10px;
- }
 
- .linkedin {
-  padding-top: 10px;
- }
-
- .languages {
-  line-height: 1px;
-  font-weight: bold;
-  padding-top: 10px;
- }
 
  .grid-item-2 {
-  padding-top: 58px;
-  padding-right: 95px;
-  padding-left: 40px;
+  position: absolute;
+  background-color: var(--color-right-column);
+  padding: var(--space-left-column);
   font-family:Arial, Helvetica, sans-serif;
+  right: 550px;
+  left: 483px; 
+
 
  }
 
- .modal2 {
- position:absolute;
- top: 0;
- right: 500px;
- left: 460px;
- }
+ 
 
  .body-text {
-  font-size: 13px;
+  font-size: var(--font-size-primary);
   font-weight: bold;
- }
+  }
 
  .skills {
   display: flex;
@@ -142,11 +122,9 @@
  }
  
  .main-text {
-  font-size: 13px;
+  font-size: var(--font-size-primary);
   
  }
-
- 
 
 .cv a:link {
     color: #00f

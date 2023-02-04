@@ -1,9 +1,9 @@
 .main-theme {
     /* colors */
-    --color-left-column: rgba(134, 163, 180, 1);
-    --color-right-column: white;
-    --color-firt-name: white;
-    --color-second-name: rgb(58, 104, 239);
+    --color-left-column: #f7d1cd;
+    --color-right-column: #e8c2ca;
+    --color-first-name: #b392ac;
+    --color-second-name: #735d78;
     --color-font-primary: #1E1E1E;
     --collor-border: #1E1E1E;
     
