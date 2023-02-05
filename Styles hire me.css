@@ -1,13 +1,16 @@
 /* Form-section */
 .form-section {
-    max-width: 1024px;
-    padding: 0 15px;
+    position: absolute;
+    width: 1024px;
+    top: calc(50% - 330px);
+    left: calc(50% - 512px);
+    padding: 15px;
     margin: auto;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    background: #fffffff3;
+    font-style:normal;
+    background: #eee2f8;
     border-style: dashed;
-    border-color: #840dde;
+    border-color: #b67cef;
     padding-bottom: 20px;
   }
   
@@ -56,7 +59,7 @@
   }
   
   .table-contact td {
-    color: #6f7482d5;
+    color: #0b0c0ed5;
   }
   
   .form {
