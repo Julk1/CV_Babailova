@@ -57,9 +57,16 @@
   }
 
   .photo {
+    max-width:100%;
     padding:var(--space-left-column);
   }
 
+
+  .photo :hover{
+    transform:scale(1.5);
+    box-shadow:3px3px3pxgrey;
+  }
+  
   .Contact {
     padding:var(--space-left-column);
     color:var(--color-font-primary);
@@ -83,27 +90,19 @@
     
   }
 
-  .address {
-    padding-top: 2px;
-  } 
 
- .phone {
-  padding-top: 10px;
- }
+ .title-info {
+  padding-top:var(--space-padding-top);
+  font-weight:bold;
+  line-height:var(--space-line-height);
 
- .email {
-  padding-top: 10px;
- }
+ } 
+ .plain-text{
+  font-weight:normal;
+  }
+  
 
- .linkedin {
-  padding-top: 10px;
- }
 
- .languages {
-  line-height: 1px;
-  font-weight: bold;
-  padding-top: 10px;
- }
 
  .grid-item-2 {
   
@@ -155,12 +154,6 @@
 
 
 
-.link {
-    font-size: 16px;
-    line-height: 1.2;
-    color: #1C2E8C;    
-}
-
 
 .link-form {
     color: #0048D9;
@@ -181,6 +174,12 @@
   font-weight:bold;
   font-size:var(--font-size-primary);
   }
+
+
+
+
+
+
 
 @media screen and (max-width:768px) {
 
