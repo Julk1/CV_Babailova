@@ -155,14 +155,14 @@
 
 
 
-@media screen and (max-width: 450px) 
-{
-  .grid-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: .4fr .4fr;
-    grid-template-areas: 
+@mediascreen and(max-width:450px) {
+  .grid-container{
+    grid-template-columns:1fr;
+    grid-template-rows:.4fr.4fr;
+    grid-template-areas:
     "grid-item-1"
     "grid-item-2"
     ;
   }
-}
+
+ }
