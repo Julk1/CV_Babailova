@@ -12,7 +12,24 @@
     border-style: dashed;
     border-color: #b67cef;
     padding-bottom: 20px;
+    animation:formReduce 2sease-in-out;
   }
+
+  @keyframes formReduce {
+    from{
+        transform:scale(2);
+        opacity:0;
+        top:calc(50%-330px);
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+
+
+
   
   .link-form {
     color: #0048D9;
@@ -239,3 +256,6 @@
     font-family: 'IBM Plex Sans', sans-serif;
     color:  #030a16d5;
   }
+
+
+ 
