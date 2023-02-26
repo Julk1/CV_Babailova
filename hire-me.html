@@ -1,108 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hire me</title>
-    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
- <main>
+
+<body class="font-sans not-italic font-normal tracking-normal  text-base bg-white">
+    <main>
     <section>
-        <div class="form-section">
+    <div class="m-25 max-w-5xl mt-44 mb-72 mx-auto shadow-lg px-2.5 py-3">
 
-     <!-- Заголовок -->
-
-     <h1 class="form-section-title">Hire  
+    <!-- Heading -->
+    <h1 class="m-0 mb-3.5 text-2xl font-semibold text-blue-800">Hire  
         <a href="./index.html" 
            target="_blank"       
            class="link-form">
           me</a>
     </h1>
+    
+    <h2 class="m-0 mb-1.5 text-lg ">Contact information</h2>
 
-
-     <h2 class="form-section-subtitle">Contact information</h2>
-
-     <!-- Таблиця -->
-
-     <table class="table-contact">
+    <!-- Table -->
+    <table class="mb-3.5">
         <tr>
-            <th>Phone</th>
-            <td>+436604070117</td>
+        <th class="pr-2 text-blue-800">Phone</th>
+        <td>+43660407011*</td>
         </tr>
-
         <tr>
-            <th>Address</th>
-            <td>Kyiv, Ukraine</td>
+        <th class="text-blue-800">Address</th>
+        <td class="pl-2.5">Kyiv, Ukraine</td>
         </tr>
-    </table>
+        </table>
+                
+        <!-- Form -->
 
-        <!-- Форма -->
         <form 
         action="./actionpage.html"
         target="_blank"
         method="get" 
         class="form"
         autocomplete="off">
-      <fieldset> 
-          <legend class="form-legend">Contact form</legend>
-
-          <div class="label-wrapper">
-            <label 
-                   for="my-email">E-mail
-                   <span class="label-required">*
-                    </span>:
-            </label>
-                 <input
-                    id="my-email"
-                    required
-                    type="email"
-                    name="email"
-                    placeholder="Enter e-mail"
-                    class="label-email field">
-                
-                    <p class="error">Error message</p>
-                    <p class="success">Success message</p>
-        </div>       
-        <div class="form-description">
-            <label 
-                  for="description"
-                  class="label-description">Description:
-            </label>
-       
-            <textarea
-            class="field"
-            id="description"
-            name="description"
-            placeholder="Feedback.."></textarea>
+        <fieldset class="rounded-tr-lg border-blue-800 border-solid border-2">  
+        <legend class="text-lg text-blue-800 font-semibold">Contact form</legend>
+            
+                    
+        <!-- E-mail input -->
+        <div class="md:flex md:items-center pl-2.5 md:space-x-8  mt-3.5 mb-3.5">                
+         <label class="mb-10" for="email">
+        E-mail<span class="text-red-700">*</span>:
+        </label>
+                            
+        <div class="w-96">
+        <input 
+         class="bg-white appearance-none border-2 border-gray-400 rounded w-full py-2 px-4 text-gray-700 focus:outline-none invalid:border-red-700  valid:border-green-700 focus:bg-white focus:border-blue-800 peer" 
+         id="email"                 
+         type="email" 
+         name="email"
+         placeholder="Enter e-mail address..."
+         required>
+                            
+                           
+       <p class="invisible peer-invalid:visible text-red-500 text-sm font-light">Error message</p>
+                           
+       <p class="invisible peer-valid:visible text-green-500 text-sm italic">Success message</p>
         </div>
-    
-        <div class="form-work-type">
-            <label 
-                  for="work-type">Work type:
+        </div>
+
+        <!-- Textarea input -->
+        <div class="md:flex md:items-center pl-2.5   mt-3.5 mb-3.5 md:space-x-16">
+         <label for="description" 
+            class="mb-28">
+            Description:
             </label>
-       
-            <select 
-            id="work-type"
-            name="work-type">
-            <option value="full-time">Full-time</option>
-            <option value="remote">Remote</option>
-            <option value="one-time-project">One-time project</option>
+                            
+         <textarea class="w-96 h-36 ml-0.5 border border-gray-400 hover:border-blue-800" id="description"row="6" placeholder="Please contact me..."></textarea>
+        </div>
+
+        <!-- Select option -->
+        <div class="md:flex md:items-center pl-2.5 mt-3.5 mb-3.5 md:space-x-16">
+            <label class=""for="work-type">Work type:</label>
+        <div class="inline-block relative w-96">
+            <select class="cursor-pointer block ml-2.5 appearance-none w-full bg-white border border-gray-400 hover:border-blue-800 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+            <option>Full time</option>
+            <option>Remote</option>
+            <option>One-time project</option>
             </select>
-    
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+        </div>
+        </div>
+                
         </div>
 
- <input type="submit" value="Hire me">
+        <!-- Input Button -->
+        <div class="ml-2.5 mb-4">
+        <input class="cursor-pointer shadow bg-blue-800 hover:bg-blue-700 border-blue-800 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" 
+               type="submit" 
+               value="Hire me">
+        </div>
 
-</fieldset>
-</form> 
+        </fieldset>
+        </form> 
 
-  
-    </div>
-</section>
-</main>
+              
+        </div>
+        </section>
+        </main>
 </body>
 </html>
-
-
