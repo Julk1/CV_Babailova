@@ -80,25 +80,30 @@
 ;
   }
 
-  .photo:hover{
-    cursor:pointer;
-    box-shadow:rgba(14,30,37,0.12) 0px 2px 4px 0px,rgba(14,30,37,0.32) 0px 2px 16px 0px;
-    animation:photoEnlarge 2s ease-in both;
+
+  .photo-enlarge{
+  cursor:pointer;
+  box-shadow:rgba(14,30,37,0.12) 0px2px4px0px,rgba(14,30,37,0.32) 0px2px16px0px;
+  transform:scale(2) translateY(30px);
+  transform-origin:left;
+  transition:all ease 1s;
 }
 
-  @keyframes photoEnlarge {
-    from{
-        transform:scale(1);
+  .photo-reduce{
+  cursor:pointer;
+  transform:scale(1);
+  transition:all ease 1s;
+}
+ 
+@keyframes photoEnlarge {
+  from{
+      transform:scale(1);
+  }
+      to{
+        transform:scale(2) translateY(30px);
+        transform-origin:left;
+      }
     }
-        to{
-          transform:scale(2) translateY(30px);
-          transform-origin:left;
-        }
-}
-
-
-
-
 
   @media screen and(max-width:768px) {
     .photo:hover{
