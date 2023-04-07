@@ -127,7 +127,14 @@
     padding-top:16px;
 
   }
+  .header1 {
+    border-bottom:5px;
+    border-bottom-style:groove;
+    border-color:var(--collor-border);
+    padding-bottom:20px;
+    padding-top:16px;
 
+  }
   .header-letter {
     display: inline-block;
     margin-right: 8px;
