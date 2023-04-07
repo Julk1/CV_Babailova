@@ -123,6 +123,13 @@
 
   }
 
+  .header-letter {
+    display: inline-block;
+    margin-right: 8px;
+    padding: 3px 8px;
+    border: 1px solid black;
+  }
+
   .title {
 
     font-size:var(--font-size-primary);
