@@ -43,4 +43,4 @@ document.addEventListener('keydown', function(event) {
       section.scrollIntoView({behavior: 'smooth'});
    }
   });
-  }
+}
