@@ -38,5 +38,9 @@ document.addEventListener('keydown', function(event) {
        const section = document.querySelector('.education');
        section.scrollIntoView({behavior: 'smooth'});
     }
+    else if (event.code === 'KeyE') {
+      const section = document.querySelector('.projects');
+      section.scrollIntoView({behavior: 'smooth'});
+   }
   });
   }
